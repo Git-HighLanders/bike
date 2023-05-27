@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import "./style.css";
 import { AlertErr } from "../Utils/AlertErr";
 import { Grid } from "@material-ui/core";
-
+/*new commit*/
 const SignupComponent = () => {
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
