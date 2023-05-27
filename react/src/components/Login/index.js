@@ -15,6 +15,7 @@ const LoginComponent = () => {
     const closeAlert = () => {
         setErrMessage("");
     };
+    /*this function of handle submit handles the information given by the user and then passes it to the backend for validation and from the database*/
     const handleSubmit = (event) => {
         event.preventDefault();
         request
