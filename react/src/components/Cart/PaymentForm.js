@@ -32,6 +32,7 @@ const PaymentForm = ({
             setError("");
         }, 5000);
     };
+    /*this function validation is doing validation of the card number and other payment information and thenpasses the information to the backend*/
     const validation = (e, type) => {
         let value = e.target.value;
         if (value.trim() === "") {
