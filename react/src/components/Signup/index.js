@@ -47,6 +47,8 @@ const SignupComponent = () => {
             event.target.reset();
         }
     };
+    
+    /*this function checkValue will verify that the user must provide the information regarding username password and conirm password*/
 
     const checkValue = () => {
         if (!username || !email || !password || !passwordVerification) {
