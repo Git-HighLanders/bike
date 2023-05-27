@@ -5,7 +5,8 @@ import "./style.css";
 import { useHistory } from "react-router-dom";
 import { Grid } from "@material-ui/core";
 import { AlertErr } from "../Utils/AlertErr";
-
+/*this class is responsible for getting uer login credentials and compare with the existing ones in the database and after comparing 
+this class rejects and accepts the user and redirects to the home page*/
 const LoginComponent = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
